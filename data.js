@@ -18,19 +18,43 @@ const FAMILIES = [
     description: "Cabang keturunan Bapak H. Cica",
     members: ["aslam", "mardin", "asriah", "asma", "anjung", "ado", "ardi"]
   },
-  {
+   {
     id: 2,
-    name: "Keluarga Hasan",
-    image: "images/keluarga/hasan.webp",
-    description: "Cabang keturunan Bapak Hasan",
+    name: "Keluarga Baharuddin",
+    image: "img/BAHARUDDIN.jpg",
+    description: "Cabang keturunan Bapak H. Cica",
     members: ["Hasan", "Fatimah", "Andi Hasan", "Nur Hasan"]
   },
   {
     id: 3,
-    name: "Keluarga Umar",
-    image: "images/keluarga/umar.webp",
-    description: "Cabang keturunan Bapak Umar",
-    members: ["Umar", "Khadijah", "Yusuf Umar", "Aisyah Umar", "Rahmat Umar"]
-  }
+    name: "Keluarga M.Dahlan",
+    image: "img/M. DAHLAN.jpg",
+    description: "Cabang keturunan Bapak H. Cica",
+    members: ["Hasan", "Fatimah", "Andi Hasan", "Nur Hasan"]
+  },
+  {
+    id: 4,
+    name: "Keluarga M.Nur",
+    image: "img/M.NUR.jpg",
+    description: "Cabang keturunan Bapak H. Cica",
+    members: ["Hasan", "Fatimah", "Andi Hasan", "Nur Hasan"]
+  },
+ 
+   {
+    id: 5,
+    name: "Keluarga Abd.Rahim",
+    image: "img/ABD.RAHIM.jpg",
+    description: "Cabang keturunan Bapak H. Cica",
+    members: ["Hasan", "Fatimah", "Andi Hasan", "Nur Hasan"]
+  },
+   {
+    id: 6,
+    name: "Keluarga M.Yahya",
+    image: "img/M.YAHYA.jpg",
+    description: "Cabang keturunan Bapak H. Cica",
+    members: ["Hasan", "Fatimah", "Andi Hasan", "Nur Hasan"]
+  },
+ 
+ 
   // Tambah keluarga baru: salin satu blok di atas, ubah isinya.
 ];
