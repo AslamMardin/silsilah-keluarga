@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Silsilah Keluarga</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1 id="siteTitle">Silsilah Keluarga Yoke</h1>
+    <p id="siteSub"></p>
+  </div>
+  <div class="tools">
+    <div class="search">
+      <input id="q" type="search" placeholder="Cari nama anggota keluarga…" autocomplete="off" aria-label="Cari nama anggota">
+      <ul id="results" class="results" hidden></ul>
+    </div>
+    <select id="famSelect" aria-label="Pilih keluarga"></select>
+  </div>
+</header>
+
+<main id="stage" class="stage">
+  <div id="viewport" class="viewport">
+    <img id="img" alt="Diagram silsilah" draggable="false">
+  </div>
+  <div id="loader" class="loader">Memuat gambar…</div>
+  <div id="error" class="error" hidden></div>
+
+  <div class="controls" role="toolbar" aria-label="Kontrol gambar">
+    <button id="zin" title="Perbesar (+)" aria-label="Perbesar">+</button>
+    <button id="zout" title="Perkecil (−)" aria-label="Perkecil">−</button>
+    <button id="reset" title="Reset (0)" aria-label="Reset">⟲</button>
+    <button id="fs" title="Layar penuh (F)" aria-label="Layar penuh">⛶</button>
+    <span id="zoomLbl" class="zoom">100%</span>
+  </div>
+  <p class="hint">Geser untuk menggeser · scroll / cubit untuk zoom · klik dua kali untuk memperbesar</p>
+</main>
+
+<footer class="info">
+  <div class="info-head">
+    <div>
+      <h2 id="viewName"></h2>
+      <p id="viewDesc"></p>
+    </div>
+    <button id="back" class="back" hidden>Kembali ke Semua Silsilah</button>
+  </div>
+  <div id="members" class="members"></div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
